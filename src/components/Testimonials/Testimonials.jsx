@@ -1,30 +1,31 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Slider from "react-slick";
 
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
+    name: "Uttam C",
+    text: "Wow! I was blown away by Rappack. It's not just good, it's exceptional! The GUI and the experience was incredibly easy to use. This project is truly impressive and I can't wait to see what he do next!",
+    img: "https://media.licdn.com/dms/image/D5603AQEp7qsQfJAw1g/profile-displayphoto-shrink_800_800/0/1682531842739?e=2147483647&v=beta&t=5G2EdhHSBbSjfwDUjvlHAwjMhn6qeuCAqdCxHR0YJao",
   },
   {
     id: 2,
-    name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
+    name: "Niranjan Boggula",
+    text: "Rappack has been a game-changer for me! It make the experience so allegiant and sirfing the website is so much easier. I loved using it and it's clear a lot of thought and effort went into its creation. Thank you for sharing this amazing project with the world!",
+    img: "https://media.licdn.com/dms/image/D5603AQHZKngcuwOBjw/profile-displayphoto-shrink_800_800/0/1692854621147?e=1712793600&v=beta&t=C_VyGDpySH-o9i9YiDW4dozrKLdkHEfiXSykiymQm90",
   },
   {
     id: 3,
-    name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
+    name: "Aditya Mawalkar",
+    text: "I have to admit, I wasn't expecting much when I first tried Rappack. But I was so wrong! It's intuitive, engaging, and genuinely useful. It feels like something I was missing in my life, and I can't imagine going back now. Thank you for creating something so wonderful!",
+    img: "https://media.licdn.com/dms/image/D5603AQET8x9b3tAglA/profile-displayphoto-shrink_800_800/0/1707126042994?e=1712793600&v=beta&t=UW-jxoIKPR77GfwbDHL9Ew3NBw7QN7u4CNg69UiVYqI",
   },
   {
-    id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/103/103",
+    id: 4,
+    name: "Asif Shaik",
+    text: "Dude, I swear I almost burst with pride when I saw your project! It's seriously next-level amazing. Not only is the concept killer, but the execution is flawless. Remember all those late nights we spent brainstorming? Totally worth it! You should see the look on people's faces when I tell them about it. You're gonna be huge!",
+    img: "https://media.licdn.com/dms/image/D5603AQE90lsq8E24BQ/profile-displayphoto-shrink_800_800/0/1696516227961?e=1712793600&v=beta&t=I5figxgRUpaW8DNJ1QNLcOX73H03kJ0_k-0780W_TAY",
   },
 ];
 
@@ -79,8 +80,7 @@ const Testimonials = () => {
             Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Some genuine costumer reviews
           </p>
         </div>
 
@@ -88,6 +88,7 @@ const Testimonials = () => {
         <div data-aos="zoom-in">
           <Slider {...settings}>
             {TestimonialData.map((data) => (
+              // eslint-disable-next-line react/jsx-key
               <div className="my-6">
                 <div
                   key={data.id}

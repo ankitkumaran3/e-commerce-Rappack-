@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Img1 from "../../assets/women/women.png";
 import Img2 from "../../assets/women/women2.jpg";
@@ -61,8 +62,11 @@ const Products = () => {
             Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Our clothing isnt just about trends, its about feeling fearless. We
+            design pieces that make you walk taller, speak louder, and conquer
+            anything the day throws your way. From boardrooms to beaches, our
+            styles celebrate your unique power and inspire you to be the best
+            version of yourself.
           </p>
         </div>
         {/* Body section */}

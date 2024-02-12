@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Logo from "../../assets/logo.png";
 import { IoMdSearch } from "react-icons/io";
@@ -14,22 +15,22 @@ const Menu = [
   {
     id: 2,
     name: "Top Rated",
-    link: "/#services",
+    link: "https://www.amazon.in/gp/bestsellers/?ref_=nav_em_cs_bestsellers_0_1_1_2",
   },
   {
     id: 3,
     name: "Kids Wear",
-    link: "/#",
+    link: "https://www.myntra.com/shop/kids",
   },
   {
     id: 3,
     name: "Mens Wear",
-    link: "/#",
+    link: "https://www.myntra.com/shop/men",
   },
   {
     id: 3,
     name: "Electronics",
-    link: "/#",
+    link: "https://www.amazon.in/All-Electronic-Items/s?k=All+Electronic+Items",
   },
 ];
 
@@ -51,6 +52,7 @@ const DropdownLinks = [
   },
 ];
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({ handleOrderPopup }) => {
   return (
     <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
@@ -60,7 +62,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
-              Shopsy
+              Rappack
             </a>
           </div>
 

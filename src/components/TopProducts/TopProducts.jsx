@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Img1 from "../../assets/shirt/shirt.png";
 import Img2 from "../../assets/shirt/shirt2.png";
@@ -10,23 +11,24 @@ const ProductsData = [
     img: Img1,
     title: "Casual Wear",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "This timeless button-down shirt is crafted from soft, breathable cotton that moves with you throughout the day. The relaxed fit flatters any figure, while the versatile design seamlessly transitions from work to weekend. Available in a range of classic colors, this shirt is a must-have for any wardrobe.",
   },
   {
     id: 2,
     img: Img2,
     title: "Printed shirt",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Unleash your inner rockstar with this electrifying printed tee! Featuring a captivating theme design in vibrant colors, this shirt makes a statement wherever you go. The premium cotton fabric ensures both comfort and style, while the durable print stands up to countless washes. Turn heads and express yourself with this unique piece.",
   },
   {
     id: 3,
     img: Img3,
     title: "Women shirt",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Embrace summer vibes in this ultra-trendy crop top, featuring a bold print that makes a statement. The comfortable material keeps you cool all day long, while the cropped silhouette shows off your midriff with confidence. Pair it with your favorite high-waisted jeans or skirt for a stylish and carefree look.",
   },
 ];
+// eslint-disable-next-line react/prop-types
 const TopProducts = ({ handleOrderPopup }) => {
   return (
     <div>
@@ -40,13 +42,17 @@ const TopProducts = ({ handleOrderPopup }) => {
             Best Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Own your style with the shirt, a shirt designed for everyone. Made
+            from good material that's are long lasting, this shirt offers unique
+            feature and best fit. Whether you're Studen or Work Employee, the
+            shirt will keep you feeling and looking your best. Don't miss out,
+            grab yours today!
           </p>
         </div>
         {/* Body section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center">
           {ProductsData.map((data) => (
+            // eslint-disable-next-line react/jsx-key
             <div
               data-aos="zoom-in"
               className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"

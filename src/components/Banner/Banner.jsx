@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import BannerImg from "../../assets/women/women2.jpg";
 import { GrSecure } from "react-icons/gr";
@@ -27,8 +28,12 @@ const Banner = () => {
               data-aos="fade-up"
               className="text-sm text-gray-500 tracking-wide leading-5"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              reiciendis inventore iste ratione ex alias quis magni at optio
+              Welcome to our Winter Sale! Discover amazing deals with discounts
+              of up to 50% Off on a wide range of products. Indulge in
+              top-quality items that redefine your shopping experience. Explore
+              our collection and find everything you need to stay cozy and
+              stylish this season. Dont miss out—shop now and make the most of
+              our exclusive offers!
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
