@@ -25,7 +25,7 @@ const TestimonialData = [
     id: 4,
     name: "Asif Shaik",
     text: "Dude, I swear I almost burst with pride when I saw your project! It's seriously next-level amazing. Not only is the concept killer, but the execution is flawless. Remember all those late nights we spent brainstorming? Totally worth it! You should see the look on people's faces when I tell them about it. You're gonna be huge!",
-    img: "https://media.licdn.com/dms/image/D5603AQE90lsq8E24BQ/profile-displayphoto-shrink_800_800/0/1696516227961?e=1712793600&v=beta&t=I5figxgRUpaW8DNJ1QNLcOX73H03kJ0_k-0780W_TAY",
+    img: "https://media.licdn.com/dms/image/D5603AQEkcw-dH7bG4Q/profile-displayphoto-shrink_400_400/0/1708839320999?e=1715212800&v=beta&t=4kyBaiYhAgjGcpyzxGDkFLj-uGsWLoFjVLWmFAPb7a8",
   },
 ];
 
